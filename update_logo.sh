@@ -10,7 +10,7 @@ echo "Mengunduh logo OwlOS OSE terbaru dari GitHub..."
 
 # Nanti, ganti 'username' dengan username GitHub Anda 
 # dan pastikan URL ini adalah URL 'Raw' dari file logo.tga Anda
-URL_LOGO="https://raw.githubusercontent.com/username/owlos-boot-logo/main/logo.tga"
+URL_LOGO="[https://raw.githubusercontent.com/Dwyyulianto/owlos-ose-assets/main/logo.tga](https://raw.githubusercontent.com/Dwyyulianto/owlos-ose-assets/main/logo.tga"
 
 # Ganti direktori ini dengan lokasi boot logo sebenarnya di Raspberry Pi Anda
 LOKASI_TUJUAN="/usr/share/plymouth/themes/custom-theme/logo.tga" 
