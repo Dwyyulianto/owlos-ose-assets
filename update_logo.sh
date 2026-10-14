@@ -9,11 +9,11 @@ fi
 echo "Mengunduh logo OwlOS OSE terbaru dari GitHub..."
 
 # Nanti, ganti 'username' dengan username GitHub Anda 
-# dan pastikan URL ini adalah URL 'Raw' dari file logo.tga Anda
-URL_LOGO="[https://raw.githubusercontent.com/Dwyyulianto/owlos-ose-assets/main/logo.tga](https://raw.githubusercontent.com/Dwyyulianto/owlos-ose-assets/main/logo.tga)"
+# dan pastikan URL ini adalah URL 'Raw' dari file logo.png Anda
+URL_LOGO="[https://raw.githubusercontent.com/Dwyyulianto/owlos-ose-assets/main/logo.tga](https://raw.githubusercontent.com/Dwyyulianto/owlos-ose-assets/main/logo.png)"
 
 # Ganti direktori ini dengan lokasi boot logo sebenarnya di Raspberry Pi Anda
-LOKASI_TUJUAN="/usr/share/plymouth/themes/custom-theme/logo.tga" 
+LOKASI_TUJUAN="/usr/share/plymouth/themes/custom-theme/logo.png" 
 
 # Perintah untuk mengunduh dan menimpa file lama
 wget -O $LOKASI_TUJUAN $URL_LOGO
